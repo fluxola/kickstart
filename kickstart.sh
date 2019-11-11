@@ -29,9 +29,13 @@
 #                         transmission
 
 # ## PPAs
-
+## Ansible
 # sudo add-apt-repository -y ppa:ansible/ansible
 # sudo apt install -y ansible
+## Latest MESA drivers
+# sudo add-apt-repository ppa:oibaf/graphics-drivers
+# sudo apt update
+# sudo apt upgrade -y
 
 
 # # Snap Packages w/o confinement
